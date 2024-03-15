@@ -6,15 +6,15 @@
   "language": "en",
   "notification": true,
   "approval": false,
-  "BOTNAME": "ZORO MAIGGA",
+  "BOTNAME": "sabbir,
   "PREFIX": "/",
   "OPERATOR": [
-    "61555249642330",
+    "100053932752130",
     "100072881080249"
   ],
   "ADMINBOT": [
     "100072881080249",
-    "61555249642330"
+    "100053932752130"
   ],
   "OWNER": ["100000959749712"], 
   "APPROVED": [],
