@@ -15,7 +15,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("I love you")==0 || (event.body.indexOf("i love you")==0 || (event.body.indexOf("I love u")==0 || (event.body.indexOf("I love you")==0)))) {
 		var msg = {
-				body: "HMM IF YOUR A GIRL DADDY sabbir WANTS TO MAKE YOU PREGNANT TOO:))"
+				body: "HMM IF YOUR A GIRL DADDY MAHI WANTS TO MAKE YOU PREGNANT TOO:))"
     }
 			api.sendMessage(msg, threadID, messageID);
 		}
