@@ -54,7 +54,7 @@ let gifPath = __dirname + '/Nayan/join/join.gif';
 axios.get(gifUrl, { responseType: 'arraybuffer' })
 .then(response => {
     fs.writeFileSync(gifPath, response.data);
-    return api.sendMessage("YOUR SUGAR DADDY IS HERE GIRLS SPREAD YOUR LEGS NOW 🤤🤤CAUSS I WANNA PUT MY DICK INSIDE YOUR VAGINA HOLE-MAHI", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("ASSALAMUALAIKUM AMI SABBIR VAI ER BOT PLEASE ASK ANYTHING ", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
@@ -66,11 +66,15 @@ AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR
 
 DEVELOPER : EASIR IQBAL MAHI
 
+USER: SABBIR AHMED
+
 🟣Facebook Account Link: 
 
-https://www.facebook.com/100072881080249
+https://www.facebook.com/100053932752130
 
-🔵WHATSAPP NUMBER: wa.me/+8801712918055
+🔵WHATSAPP NUMBER USER: wa.me/+8801787088373
+
+🔵WHATSAPP NUMBER DEVELOPER: wa.me/+8801712918055
 
 🟢SUPPORT EMAIL: easiriqbalmahi@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
 })
