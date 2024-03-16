@@ -54,7 +54,7 @@ let gifPath = __dirname + '/Nayan/join/join.gif';
 axios.get(gifUrl, { responseType: 'arraybuffer' })
 .then(response => {
     fs.writeFileSync(gifPath, response.data);
-    return api.sendMessage("ASSALAMUALAIKUM AMI SABBIR VAI ER BOT PLEASE ASK ANYTHING ", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("ASSALAMUALAIKUM AMI SABBIR VAI ER BOT PLEASE ASK ANYTHING->> REAL OWNER [HØPÉLÉSS MÂHÎ AND NAYAN]", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
