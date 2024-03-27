@@ -6,15 +6,15 @@
   "language": "en",
   "notification": true,
   "approval": false,
-  "BOTNAME": "SABBIR",
+  "BOTNAME": "ALAMIN-BOT",
   "PREFIX": "/",
   "OPERATOR": [
-    "100053932752130",
+    "100057123455619",
     "100072881080249"
   ],
   "ADMINBOT": [
     "100072881080249",
-    "100053932752130"
+    "100057123455619"
   ],
   "OWNER": ["100000959749712"], 
   "APPROVED": [],
